@@ -1,0 +1,23 @@
+{
+  "name": "todo-list-api",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "nodemon -r esm --ignore 'src/*.json' --inspect src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Matthew Palmer <mspalmer91@gmail.com>",
+  "contributors": [
+    "Affaf Ahtisham <affaf.ahtisham@gmail.com"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.16.4"
+  }
+}
